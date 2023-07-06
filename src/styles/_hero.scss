@@ -1,14 +1,14 @@
 @use 'variaveis';
 
 .hero {
-    padding: 5.6vw;
+    padding: 2.6vw;
     min-height: 80vh;
-    background-image: url(../images/hero_desktop.jpeg);
+    background-image: url(../images/avanger4.jpeg);
     text-align: center;
     background-size: cover;
 
     @media (max-width: 768px) {
-        background-image: url(../images/hero_celular.jpeg);
+        background-image: url(../images/hero_celular.png);
         padding-top: calc(50vw + 25px);
         background-size: contain;
         background-repeat: no-repeat;
@@ -26,6 +26,10 @@
         &__branding {
             max-width: 320px;
             margin: 0 auto 38px;
+
+            img {
+                width: 100%;
+            }
 
             @media (max-width: 768px) {
                 max-width: 180px;
